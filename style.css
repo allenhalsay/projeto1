@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1340px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #182C61;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px 0 0 0;
+    padding: 16px 32px;
+}
+
+header h1{
+    font-family: "Bungee", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ecf0f1;
+    font-size: 32px;
+}
+
+header nav{
+    display: flex;
+    list-style-type: none;
+    font-family: "Bungee", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ecf0f1;
+    font-size: 18px;
+}
+
+header nav li{
+    margin-left: 32px;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 16px 32px;
+}
+
+#shop{
+    margin-left: 32px;
+}
+
+#shop h2{
+    font-family: "Bungee", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #182C61;
+}
+
+#shop p{
+    font-family: 'Roboto', sans-serif;
+    color: #182C61;
+}
+
+#shop img{
+    height: 24px;
+}
+
+#contact{
+    margin: 16px 32px;
+}
+
+.contact-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form input{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 8px;
+}
+
+.contact-form textarea{
+    width: 300px;
+    height: 200px;
+    resize: none;
+}
+
+input,
+textarea{
+    padding: 8px 16px;
+}
+
+
+input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    color: #182C61;
+}
+
+textarea::placeholder{
+    font-family: 'Roboto', sans-serif;
+    color: #182C61;
+}
+
+#contact h3, 
+#contact h2{
+    font-family: "Bungee", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #182C61;
+}
+
+form button{
+    width: 300px;
+    height: 30px;
+    background-color: #182C61;
+    color: #ecf0f1;
+    font-family: "Bungee", serif;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+}
+
+.social img{
+    height: 24px;
+}
+
+.social img:nth-of-type(2),
+.social img:nth-of-type(3){
+    margin-left: 8px;
+}
+
+footer{
+    background-color: #182C61;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 16px 32px;
+    margin-top: 32px;
+}
+
+footer p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ecf0f1;
+}
